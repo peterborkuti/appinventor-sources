@@ -1,4 +1,4 @@
-package hu.bp;
+package com.google.appinventor.components.runtime;
 
 import com.google.appinventor.components.annotations.*;
 import com.google.appinventor.components.common.ComponentCategory;
@@ -9,7 +9,7 @@ import com.google.appinventor.components.runtime.Form;
         description = "Non-visible component that provides functions KUKA Iisy robot.",
         category = ComponentCategory.EXTENSION,
         nonVisible = true,
-        iconName = "", //"images/iisy.png",
+        iconName = "",
         showOnPalette = true)
 @SimpleObject(external = true)
 @UsesPermissions(permissionNames = "android.permission.INTERNET," +

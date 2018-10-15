@@ -7060,4 +7060,8 @@ public interface OdeMessages extends Messages {
       "<br/>These applications will not run on Android versions older than 4.0.")
   @Description("Text for the Package SDK 26 Warning Dialog Box (HTML)")
   String Package26Notice();
+
+  @DefaultMessage("Non-visible component that provides functions KUKA Iisy robot.")
+  @Description("")
+  String KUKAIisyMotionHelpStringComponentPallette();
 }
