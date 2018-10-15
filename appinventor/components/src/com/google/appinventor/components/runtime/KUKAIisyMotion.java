@@ -2,6 +2,7 @@ package com.google.appinventor.components.runtime;
 
 import com.google.appinventor.components.annotations.*;
 import com.google.appinventor.components.common.ComponentCategory;
+import com.google.appinventor.components.common.PropertyTypeConstants;
 import com.google.appinventor.components.runtime.AndroidNonvisibleComponent;
 import com.google.appinventor.components.runtime.Form;
 
@@ -19,20 +20,21 @@ import com.google.appinventor.components.runtime.Form;
 public class KUKAIisyMotion extends AndroidNonvisibleComponent {
     private String robotName;
 
-    /*
     @SimpleProperty(
-            description = "The name of the robot",
-            userVisible = true)
+            category = PropertyCategory.BEHAVIOR,
+            description ="The name of the robot")
     public String RobotName() {
         return robotName;
     }
 
-    @SimpleProperty(
-            userVisible = true)
+
+    @DesignerProperty(
+            editorType = PropertyTypeConstants.PROPERTY_TYPE_STRING,
+            defaultValue = "LBR Iisy")
+    @SimpleProperty
     public void RobotName(String robotName) {
         this.robotName = robotName;
     }
-    */
 
     public KUKAIisyMotion(Form form) {
         super(form);

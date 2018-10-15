@@ -7064,4 +7064,8 @@ public interface OdeMessages extends Messages {
   @DefaultMessage("Non-visible component that provides functions KUKA Iisy robot.")
   @Description("")
   String KUKAIisyMotionHelpStringComponentPallette();
+
+  @DefaultMessage("RobotName")
+  @Description("")
+  String RobotNameProperties();
 }
