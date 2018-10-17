@@ -7068,4 +7068,12 @@ public interface OdeMessages extends Messages {
   @DefaultMessage("RobotName")
   @Description("")
   String RobotNameProperties();
+
+  @DefaultMessage("MoveToFrameAsync")
+  @Description("")
+  String MoveToFrameAsyncMethods();
+
+  @DefaultMessage("Stopped")
+  @Description("")
+  String StoppedEvents();
 }
